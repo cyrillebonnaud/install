@@ -37,3 +37,6 @@ source ~/.bashrc
 
 # Git conf
 curl https://raw.githubusercontent.com/cyrillebonnaud/git_conf/master/git_conf | sh
+
+# Selenium
+pip install selenium
