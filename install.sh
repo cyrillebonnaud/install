@@ -32,7 +32,7 @@ rm ~/.viminfo
 
 # bashrc
 cd ~/workspace
-curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases >> ~/.bashrc
+curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases > ~/.bash_aliases
 source ~/.bashrc
 
 # Git conf
