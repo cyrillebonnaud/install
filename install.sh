@@ -9,6 +9,7 @@ sudo apt-get update
 # DOCKER VIM MAVEN JDK
 sudo apt-get install \
     docker.io \
+    docker-compose \
     git \
     maven \
     testng \
