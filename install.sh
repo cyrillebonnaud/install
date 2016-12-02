@@ -11,6 +11,7 @@ sudo apt-get install \
     docker.io \
     git \
     maven \
+    testng \
     openjdk-8-jre-headless \
     python-dev python-pip python3-dev python3-pip neovim \
     -y
