@@ -12,7 +12,7 @@ sudo apt-get install \
     docker-compose \
     git \
     maven \
-    testng \
+    eclipse \
     openjdk-8-jre-headless \
     python-dev python-pip python3-dev python3-pip neovim \
     -y
@@ -34,11 +34,11 @@ rm ~/.viminfo
 
 # bashrc
 cd ~/workspace
-curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases > ~/.bash_aliases
+sudo curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases > ~/.bash_aliases
 source ~/.bashrc
 
 # Git conf
-curl https://raw.githubusercontent.com/cyrillebonnaud/git_conf/master/git_conf | sh
+sudo curl https://raw.githubusercontent.com/cyrillebonnaud/git_conf/master/git_conf | sh
 
 # Selenium
-pip install selenium
+sudo pip install selenium
