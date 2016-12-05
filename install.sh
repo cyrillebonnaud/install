@@ -23,7 +23,7 @@ cd ~/workspace
 
 # Vim config files
 sudo git clone https://github.com/cyrillebonnaud/vim_conf.git && cd vim_conf
-sudo git submodule init && git submodule update
+sudo git submodule init && sudo git submodule update
 
 # Add symlinks to neovim config files
 sudo mkdir ~/.config
