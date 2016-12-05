@@ -34,6 +34,7 @@ sudo rm ~/.viminfo
 
 # bashrc
 cd ~/workspace
+sudo touch ~/.bash_aliases
 sudo curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases > ~/.bash_aliases
 sudo source ~/.bashrc
 
