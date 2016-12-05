@@ -22,20 +22,20 @@ sudo mkdir ~/workspace
 cd ~/workspace
 
 # Vim config files
-git clone https://github.com/cyrillebonnaud/vim_conf.git && cd vim_conf
-git submodule init && git submodule update
+sudo git clone https://github.com/cyrillebonnaud/vim_conf.git && cd vim_conf
+sudo git submodule init && git submodule update
 
 # Add symlinks to neovim config files
-mkdir ~/.config
-ln -s ./.vim ~/.config/nvim
-ln -s ./.vimrc ~/.config/nvim/init.vim
+sudo mkdir ~/.config
+sudo ln -s ./.vim ~/.config/nvim
+sudo ln -s ./.vimrc ~/.config/nvim/init.vim
 # Remove viminfo file to prevent neovim issue 3469
-rm ~/.viminfo
+sudo rm ~/.viminfo
 
 # bashrc
 cd ~/workspace
 sudo curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases > ~/.bash_aliases
-source ~/.bashrc
+sudo source ~/.bashrc
 
 # Git conf
 sudo curl https://raw.githubusercontent.com/cyrillebonnaud/git_conf/master/git_conf | sh
