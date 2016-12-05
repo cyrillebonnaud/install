@@ -18,7 +18,7 @@ sudo apt-get install \
     -y
 
 # Création workspace
-mkdir ~/workspace
+sudo mkdir ~/workspace
 cd ~/workspace
 
 # Vim config files
