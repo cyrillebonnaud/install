@@ -36,7 +36,7 @@ sudo rm ~/.viminfo
 cd ~/workspace
 sudo touch ~/.bash_aliases
 sudo curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases > ~/.bash_aliases
-sudo source ~/.bashrc
+. ~/.bash_aliases #source
 
 # Git conf
 sudo curl https://raw.githubusercontent.com/cyrillebonnaud/git_conf/master/git_conf | sh
