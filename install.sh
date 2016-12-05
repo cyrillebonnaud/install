@@ -39,7 +39,7 @@ sudo curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.
 . ~/.bash_aliases #source
 
 # Git conf
-sudo curl https://raw.githubusercontent.com/cyrillebonnaud/git_conf/master/git_conf | sh
+curl https://raw.githubusercontent.com/cyrillebonnaud/git_conf/master/git_conf | sudo sh
 
 # Selenium
 sudo pip install selenium
