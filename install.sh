@@ -18,6 +18,7 @@ sudo apt-get install \
     -y
 
 # Création workspace
+sudo chown $USER:$USER $HOME
 sudo mkdir ~/workspace
 cd ~/workspace
 
