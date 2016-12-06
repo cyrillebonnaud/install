@@ -20,6 +20,8 @@ sudo apt-get install \
 # Création workspace
 sudo chown $USER:$USER $HOME
 sudo mkdir ~/workspace
+sudo chown $USER ~/workspace
+sudo chmod 775 ~/workspace
 cd ~/workspace
 # Enable arrow keys for terminal
 sudo chsh -s /bin/bash $USER
