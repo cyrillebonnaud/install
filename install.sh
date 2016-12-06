@@ -35,8 +35,6 @@ sudo ln -s ~/workspace/vim_conf/.vimrc ~/.config/nvim/init.vim
 sudo rm ~/.viminfo
 
 # bashrc
-cd ~/workspace
-sudo touch ~/.bash_aliases
 sudo bash -c "curl https://raw.githubusercontent.com/cyrillebonnaud/bash_aliases/master/.bash_aliases > ~/.bash_aliases"
 . ~/.bashrc #source bashrc
 
