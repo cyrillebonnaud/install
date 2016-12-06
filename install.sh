@@ -21,6 +21,8 @@ sudo apt-get install \
 sudo chown $USER:$USER $HOME
 sudo mkdir ~/workspace
 cd ~/workspace
+# Enable arrow keys for terminal
+sudo chsh -s /bin/bash $USER
 
 # Vim config files
 sudo git clone https://github.com/cyrillebonnaud/vim_conf.git && cd vim_conf
