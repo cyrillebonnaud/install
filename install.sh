@@ -26,6 +26,9 @@ cd ~/workspace
 # Enable arrow keys for terminal
 sudo chsh -s /bin/bash $USER
 
+# Add user to docker group
+sudo adduser $USER docker
+
 # Vim config files
 sudo git clone https://github.com/cyrillebonnaud/vim_conf.git && cd vim_conf
 sudo git submodule init && sudo git submodule update
