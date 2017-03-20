@@ -6,16 +6,17 @@ sudo add-apt-repository ppa:neovim-ppa/unstable -y
 
 sudo apt-get update
 
-# DOCKER VIM MAVEN JDK
+# VIM MAVEN JDK
 sudo apt-get install \
-    docker.io \
-    docker-compose \
     git \
     maven \
     eclipse \
     openjdk-8-jre-headless \
     python-dev python-pip python3-dev python3-pip neovim \
     -y
+    
+#DOCKER
+sudo curl -sSL https://get.docker.com/ | sh
 
 # Création workspace
 sudo chown $USER:$USER $HOME
